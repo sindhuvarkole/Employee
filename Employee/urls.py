@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 
 from Employee import views 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('employees/',views.home,name='home'),
